@@ -1,0 +1,43 @@
+PERSONAL MINI-TOOLKIT — PROJECT PLAN
+
+1. TOOLS I CHOSE
+
+Tool 1: Simple Calculator
+The calculator asks for two numbers and an operation, then displays the result.
+Concepts: input(), float(), variables, if/elif/else, while loop, f-strings, error handling.
+
+Tool 2: To-Do List
+The to-do list lets the user add tasks, view saved tasks, and remove a task while the program is running.
+Concepts: list, append(), pop(), for loop, while loop, conditionals, input(), f-strings.
+
+Tool 3: Number Guessing Game
+The game chooses a secret number from 1 to 10 and gives the player up to three attempts to guess it.
+Concepts: random, variables, input(), for loop, if/elif/else, break, f-strings, error handling.
+
+2. EXACT MAIN MENU TEXT
+
+========================================
+       PERSONAL MINI-TOOLKIT
+========================================
+1. Simple Calculator
+2. To-Do List
+3. Number Guessing Game
+0. Quit
+----------------------------------------
+Choose an option (0-3):
+
+3. HOW THE PROGRAM WILL WORK
+
+The program displays a welcome message and the menu. It keeps showing the menu until the user chooses 0.
+If the user enters an invalid menu choice, the program displays a polite message and shows the menu again.
+Each tool returns to the main menu when it finishes.
+
+4. TEST PLAN
+
+- Choose 1 and calculate 12 + 8. Expected result: 20.
+- Try an invalid calculator number and confirm the program does not crash.
+- Choose 2, add two tasks, view them, remove one, and view the updated list.
+- Try an invalid task number and confirm the program responds politely.
+- Choose 3 and test a valid guess and an invalid guess.
+- Enter an invalid menu choice and confirm the menu appears again.
+- Choose 0 and confirm the friendly goodbye message appears.
